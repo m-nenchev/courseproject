@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url('fonn.jpg');
+
+  color: #fff;
+}
+
+header h1 {
+  text-align: center;
+  margin: 20px;
+}
+header li {
+  display: inline-block;
+  margin-top: 10px;
+
+
+}
+header ul {
+  text-align: center;
+  vertical-align: middle;
+}
+header a {
+  text-decoration: none;
+  margin: 10px;
+}
+nav {
+  background: #fff;
+  height: 40px;
+  padding: 0;
+}
+.equipment p {
+  width: 56%;
+}
+.equipment img {
+  width: 56%;
+  margin-left: 20px;
+}
+
+h2 {
+  margin: 20px;
+}
+p {
+  margin: 20px;
+  text-align: justify;
+
+}
+.zagrqvane p {
+  width: 54%;
+  text-align: justify;
+}
+.zagrqvane img {
+  margin-left: 20px;
+}
+.Razpuskane img {
+  margin-left: 20px;
+}
+.Razpuskane p {
+  width: 26%;
+  text-align: justify;
+
+}
