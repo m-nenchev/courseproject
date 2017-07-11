@@ -11,7 +11,9 @@ body {
 
 header h1 {
   text-align: center;
-  margin: 20px;
+  margin: 30px;
+  text-transform: uppercase;
+  font-size: 60px;
 }
 header li {
   display: inline-block;
@@ -28,7 +30,7 @@ header a {
   margin: 10px;
 }
 nav {
-  background: #fff;
+  background: #dadada;
   height: 40px;
   padding: 0;
 }
@@ -38,10 +40,14 @@ nav {
 .equipment img {
   width: 56%;
   margin-left: 20px;
+  opacity: 0.9;
+  border-radius: 10px;
 }
 
 h2 {
   margin: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 p {
   margin: 20px;
@@ -49,17 +55,56 @@ p {
 
 }
 .zagrqvane p {
-  width: 54%;
+  width: 58%;
   text-align: justify;
 }
 .zagrqvane img {
+  width: 108px;
   margin-left: 20px;
+  box-shadow: 10px 10px 5px #888;
+  border-radius:10px;
+  border:  5px solid #ff0000;
+  transition: width 1s;
+}
+.zagrqvane img:hover {
+width: 140px;
+}
+.Razpuskane img:hover {
+  width: 140px;
 }
 .Razpuskane img {
+  width: 108px;
   margin-left: 20px;
+  box-shadow: 10px 10px 5px #888;
+  border-radius: 10px;
+  border:  5px solid #ff0000;
+  transition: width 1s;
 }
 .Razpuskane p {
   width: 26%;
   text-align: justify;
 
+}
+footer {
+  background: #dadada;
+  color: #000;
+  text-align: center;
+padding-top: 20px;
+margin-top: 20px;
+  height: 40px;
+
+}
+footer li {
+  display: inline-block;
+  padding-left: 10px;
+}
+footer a {
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+  font-size: 20px;
+  transition: font-size 0.5s;
+}
+footer a:hover {
+font-size: 22px;
 }
