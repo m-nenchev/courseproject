@@ -1,0 +1,41 @@
+th {
+  height: 90px;
+  font-size: 30px;
+}
+table {
+border-collapse: collapse;
+   width: 100%;
+   }
+   table, td, th {
+       border: 1px solid black;
+       text-align: center;
+       font-weight: bold;
+       height: 110px;
+
+   }
+tr:nth-child(even){
+  background-color: #7FAAFF;
+}
+footer {
+  background: #dadada;
+  color: #000;
+  text-align: center;
+padding-top: 20px;
+margin-top: 20px;
+  height: 40px;
+
+}
+footer li {
+  display: inline-block;
+  padding-left: 10px;
+}
+footer a {
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+  font-size: 20px;
+  transition: font-size 0.5s;
+}
+footer a:hover {
+font-size: 22px;
+}
