@@ -11,23 +11,45 @@ body {
 
 header h1 {
   text-align: center;
-  margin: 30px;
+  margin-bottom: 4%;
+    padding-top: 4%;
   text-transform: uppercase;
   font-size: 60px;
 }
 header li {
   display: inline-block;
   margin-top: 10px;
-
-
 }
-header ul {
-  text-align: center;
-  vertical-align: middle;
+header div {
+    width: 100%;
+
+    background-color: #F01C46;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: #F01C46;}
+    to {background-color: #969696;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: #F01C46;}
+    to {background-color: #969696;}
+}
+
+header a:hover {
+  color: #000;
 }
 header a {
   text-decoration: none;
   margin: 10px;
+  color: #FF0055;
 }
 nav {
   background: #dadada;
@@ -55,12 +77,12 @@ p {
 
 }
 .zagrqvane p {
-  width: 58%;
+  width: 56%;
   text-align: justify;
 }
 .zagrqvane img {
   width: 108px;
-  margin-left: 20px;
+  margin-left: 15px;
   box-shadow: 10px 10px 5px #888;
   border-radius:10px;
   border:  5px solid #ff0000;
@@ -74,14 +96,14 @@ width: 140px;
 }
 .Razpuskane img {
   width: 108px;
-  margin-left: 20px;
+  margin-left: 15px;
   box-shadow: 10px 10px 5px #888;
   border-radius: 10px;
   border:  5px solid #ff0000;
   transition: width 1s;
 }
 .Razpuskane p {
-  width: 26%;
+  width: 28%;
   text-align: justify;
 
 }
@@ -107,4 +129,109 @@ footer a {
 }
 footer a:hover {
 font-size: 22px;
+}
+a:hover#menu-icon {
+    background-color: #444;
+    border-radius: 4px 4px 0 0;
+}
+#menu-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: #4C8FEC url(menu-icon.png) center;
+  }
+
+  .top-list {
+
+      list-style: none;
+      height: 50px;
+      max-width: 100%;
+      
+  }
+
+@media all and (max-width:1180px) {
+    .img {
+      width: 58%
+    }
+  }
+@media all and (max-width:955px) {
+  .Razpuskane div {
+    width: 57%;
+  }
+  .Razpuskane p {
+    width: 43%;
+  }
+  .zagrqvane p {
+    width: 42%;
+  }
+  .equipment p {
+    width: 43%;
+  }
+  .equipment img {
+    width: 43%;
+  }
+}
+@media all and (max-width:760px) {
+   header h1 {
+     font-size: 30px;
+
+   }
+   nav li {
+     float: left;
+   }
+  .ekip {
+    width: 45%;
+    text-align: center;
+  }
+  .zagrqvane,
+  .Razpuskane img {
+    margin-left: 13px;
+  }
+  .img {
+    width: 55%;
+  }
+.Razpuskane > div {
+  width: 53%;
+  }
+
+  footer li {
+  float: left;
+  }
+  footer a {
+    font-size: 15px;
+  }
+  .top-list {
+
+  display: none;
+
+  height: auto;
+}
+  #menu-icon {
+
+  display: inline-block;
+
+  }
+  nav {
+    height: 64px;
+  }
+  nav li {
+
+    text-align: center;
+
+    width: 100%;
+
+    padding: 10px 0;
+
+    margin: 0;
+
+  }
+
+  nav li {
+
+  background: #f6f6f6;}
+
+  nav:hover ul.top-list{
+
+    display: block;
+ }
 }
